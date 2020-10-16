@@ -3,12 +3,12 @@ import randomWords from "random-words";
 import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import bg from "./bg.jpg";
 
 function App() {
   //utils
   // eslint-disable-next-line no-unused-vars
   let interval;
-  const bg = "./bg.jpg";
 
   //states
   const [input, setInput] = useState("");
